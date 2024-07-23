@@ -1,0 +1,74 @@
+/* ZedStyles */
+
+@font-face {
+    font-family: ARSMaquettePro;
+    src: url(../fonts/ARS-MaquettePro/ARSMaquettePro-Bold.woff2),
+        url(../fonts/ARS-MaquettePro/ARSMaquettePro-Bold.woff);
+}
+@font-face {
+    font-family: RobotoSerif;
+    src: url(../fonts/RobotoSerif/RobotoSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey;
+    background-color: var(--body-bg-clr);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--theme-clr);
+    border-radius: 4px;
+}
+:root {
+    --font-one: sans-serif;
+    --font-two: 'ARSMaquettePro', sans-serif;
+    --font-three: 'RobotoSerif', sans-serif;
+    --font-four: 'Poppins', sans-serif;
+    --site-pad: 20px;
+    --site-width: 100%
+    --btn-height: 40px;
+    --title-size: 22px;
+    --round-conners: 20px;
+    --txt-shadow: 2px 2px 8px #000;
+    --transition: all ease-in-out 0.3s;
+
+    --theme-clr: #d4683a;
+    --theme-clr-trans: #d4683a91;
+    --outline: #8585857d;
+    --overlay-clr: #00000096;
+    --sidebar-outline: #636568;
+    --box-shadow: 0rem 0.125rem 0.25rem #1f21241a,
+        0rem 0.0625rem 0.375rem #1f21243d;
+    --shadow-small: 0 1px 3px 0 #0000001a, 0 1px 2px 0 #0000000f;
+    --shadow-medium: 0 4px 6px -1px #0000001a, 0 2px 4px -1px #0000000f;
+    --shadow-large: 0 10px 15px -3px #0000001a, 0 4px 6px -2px #0000000d;
+    --preset-shadow-sharp: 6px 6px 0px #00000033;
+}
+
+html {
+    font-family: var(--font-one);
+    scroll-behavior: smooth;
+}
+body {
+    --body-bg-clr: #f1f2f4de;
+    --body-txt-clr: #444;
+    --box-bg-clr: #ffffffcc;
+    --box-bg-clr-solid: #ffffff;
+    --tertiary-clr: #59626f;
+    --brightness: brightness(100%) contrast(1);
+}
+body {
+    color: var(--body-txt-clr);
+    transition: var(--transition);
+}
+
+.wrapper {
+    min-height: 100vh;
+    color: var(--body-txt-clr);
+}
