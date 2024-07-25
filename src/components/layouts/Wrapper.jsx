@@ -20,7 +20,7 @@ const Wrapper = () => {
 			<Section id="header" classes="py-0" components={[heroSection]} />
 
 			<Section
-				id="store"
+				id="about"
 				classes="bg-black py-8 pt-0"
 				components={[aboutSection]}
 			/>

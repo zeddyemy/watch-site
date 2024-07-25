@@ -38,7 +38,7 @@
     --txt-shadow: 2px 2px 8px #000;
     --transition: all ease-in-out 0.3s;
 
-    --theme-clr: #d4683a;
+    --theme-clr: #fe8855;
     --theme-clr-trans: #d4683a91;
     --outline: #8585857d;
     --overlay-clr: #00000096;
@@ -71,4 +71,8 @@ body {
 .wrapper {
     min-height: 100vh;
     color: var(--body-txt-clr);
+}
+
+.nav-link:hover {
+    color: var(--theme-clr) !important;
 }

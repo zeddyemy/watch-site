@@ -13,9 +13,13 @@ const Header = () => {
 				data-navbar-on-scroll="data-navbar-on-scroll"
 			>
 				<div className="container">
-					<a className="navbar-brand d-inline-flex" href="index.html" style={{
-						alignItems: "center"
-					}}>
+					<a
+						className="navbar-brand d-inline-flex"
+						href="index.html"
+						style={{
+							alignItems: "center",
+						}}
+					>
 						<img
 							style={{
 								width: "60px",
@@ -54,18 +58,31 @@ const Header = () => {
 								</a>
 							</li>
 							<li className="nav-item px-2">
-								<a className="nav-link fw-bold" href="#store">
-									STORE
+								<a className="nav-link fw-bold" href="#about">
+									About
+								</a>
+							</li>
+							<li className="nav-item px-2">
+								<a
+									className="nav-link fw-bold"
+									href="#collections"
+								>
+									Products
+								</a>
+							</li>
+							<li className="nav-item px-2">
+								<a className="nav-link fw-bold" href="#testimonial">
+									Reviews
+								</a>
+							</li>
+							<li className="nav-item px-2">
+								<a className="nav-link fw-bold" href="#">
+									Technology
 								</a>
 							</li>
 							<li className="nav-item px-2">
 								<a className="nav-link fw-bold" href="#contact">
-									CONTACT
-								</a>
-							</li>
-							<li className="nav-item px-2">
-								<a className="nav-link fw-bold" href="#header">
-									REQUEST VIRTUAL
+									Contact
 								</a>
 							</li>
 						</ul>
