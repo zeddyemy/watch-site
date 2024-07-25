@@ -89,7 +89,7 @@ const Header = () => {
 								</a>
 							</li>
 						</ul>
-						<div className="d-flex ms-4 text-light fw-bold">
+						<div className="d-flex ms-4 me-4 text-light fw-bold">
 							Visitors: <span className=""> 200 </span>
 						</div>
 						<form className="d-flex">
