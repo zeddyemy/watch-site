@@ -90,7 +90,7 @@ const Header = () => {
 							</li>
 						</ul>
 						<div className="d-flex ms-4 me-4 text-light fw-bold">
-							Visitors: <span className=""> 200 </span>
+							<span className=""> <a href="http://www.freevisitorcounters.com">Freevisitorcounters</a> </span>
 						</div>
 						<form className="d-flex">
 							<a className="text-primary" href="#!">
