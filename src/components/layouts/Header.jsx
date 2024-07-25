@@ -107,7 +107,7 @@ const Header = () => {
 								</svg>
 							</a>
 							<div className="ms-4 text-light fw-bold">
-								Visitors: <span className=""></span>
+								Visitors: <span className=""> 200 </span>
 							</div>
 							<div className="ms-4 text-light fw-bold">
 								1 (800) 862 6772
