@@ -11,4 +11,5 @@
     z-index: 9999;
     top: 17px;
     right: 70px;
+    pointer-events: none;
 }

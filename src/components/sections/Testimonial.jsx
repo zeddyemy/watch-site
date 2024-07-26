@@ -1,4 +1,7 @@
 import React from 'react'
+import ade from "../../assets/img/gallery/ade.png";
+import joy from "../../assets/img/gallery/joy.png";
+import eno from "../../assets/img/gallery/eno.png";
 import smith from "../../assets/img/gallery/smith.png"
 import sandra from "../../assets/img/gallery/sandra-williams.png";
 
@@ -32,26 +35,25 @@ const Testimonial = () => {
 													<div className="d-flex align-items-center">
 														<img
 															className="img-fluid"
-															src={smith}
+															src={ade}
 															width="80"
 															alt="testimonials"
 														/>
 														<div className="flex-1 ms-4">
 															<h6 className="fs-lg-1 mb-1 text-uppercase">
-																amanda smith
+																Ade Damola
 															</h6>
 														</div>
 													</div>
 													<p className="mb-0 mt-4 fw-light lh-lg">
-														Nisi cumque in
-														necessitatibus molestiae
-														eaque excepturi ab.
-														Laboriosam ipsam
-														voluptatem voluptatibus
-														labore quam nihil. Quasi
-														occaecati quos ratione
-														quia aut molestiae velit
-														et.
+														Found the perfect
+														timepiece! Amazing
+														selection and seamless
+														checkout. Highly
+														recommend! Obsessed with
+														my new watch! Great
+														customer service and
+														fast shipping.
 													</p>
 												</div>
 											</div>
@@ -62,26 +64,26 @@ const Testimonial = () => {
 													<div className="d-flex align-items-center">
 														<img
 															className="img-fluid"
-															src={sandra}
+															src={joy}
 															width="80"
 															alt="testimonials"
 														/>
 														<div className="flex-1 ms-4">
 															<h6 className="fs-lg-1 mb-1 text-uppercase">
-																Ainara Vergara
+																Joy Chukwuemeke
 															</h6>
 														</div>
 													</div>
 													<p className="mb-0 mt-4 fw-light lh-lg">
-														Nisi cumque in
-														necessitatibus molestiae
-														eaque excepturi ab.
-														Laboriosam ipsam
-														voluptatem voluptatibus
-														labore quam nihil. Quasi
-														occaecati quos ratione
-														quia aut molestiae velit
-														et.
+														I was blown away by the
+														variety of watches on
+														this website. The
+														filters made it easy to
+														find the perfect style.
+														The watch arrived
+														beautifully packaged and
+														exceeded my
+														expectations.
 													</p>
 												</div>
 											</div>
@@ -99,26 +101,26 @@ const Testimonial = () => {
 													<div className="d-flex align-items-center">
 														<img
 															className="img-fluid"
-															src={smith}
+															src={eno}
 															width="80"
 															alt="testimonials"
 														/>
 														<div className="flex-1 ms-4">
 															<h6 className="fs-lg-1 mb-1 text-uppercase">
-																Niek Bove
+																Eno Bassey
 															</h6>
 														</div>
 													</div>
 													<p className="mb-0 mt-4 fw-light lh-lg">
-														Nisi cumque in
-														necessitatibus molestiae
-														eaque excepturi ab.
-														Laboriosam ipsam
-														voluptatem voluptatibus
-														labore quam nihil. Quasi
-														occaecati quos ratione
-														quia aut molestiae velit
-														et.
+														The customer service was
+														exceptional! They helped
+														me choose the right
+														watch and answered all
+														my questions patiently.
+														The watch itself is
+														stunning and has become
+														my new favorite
+														accessory.
 													</p>
 												</div>
 											</div>
@@ -140,15 +142,14 @@ const Testimonial = () => {
 														</div>
 													</div>
 													<p className="mb-0 mt-4 fw-light lh-lg">
-														Nisi cumque in
-														necessitatibus molestiae
-														eaque excepturi ab.
-														Laboriosam ipsam
-														voluptatem voluptatibus
-														labore quam nihil. Quasi
-														occaecati quos ratione
-														quia aut molestiae velit
-														et.
+														I've been searching for
+														a specific watch for
+														months and finally found
+														it here. The website is
+														user-friendly, and the
+														shipping was incredibly
+														fast. I'm thrilled with
+														my purchase!
 													</p>
 												</div>
 											</div>
@@ -174,15 +175,14 @@ const Testimonial = () => {
 														</div>
 													</div>
 													<p className="mb-0 mt-4 fw-light lh-lg">
-														Nisi cumque in
-														necessitatibus molestiae
-														eaque excepturi ab.
-														Laboriosam ipsam
-														voluptatem voluptatibus
-														labore quam nihil. Quasi
-														occaecati quos ratione
-														quia aut molestiae velit
-														et.
+														Investing in a luxury
+														watch is a big decision,
+														and this website made it
+														easy. The detailed
+														product descriptions and
+														high-quality images
+														helped me make a
+														confident purchase.
 													</p>
 												</div>
 											</div>
@@ -204,15 +204,14 @@ const Testimonial = () => {
 														</div>
 													</div>
 													<p className="mb-0 mt-4 fw-light lh-lg">
-														Nisi cumque in
-														necessitatibus molestiae
-														eaque excepturi ab.
-														Laboriosam ipsam
-														voluptatem voluptatibus
-														labore quam nihil. Quasi
-														occaecati quos ratione
-														quia aut molestiae velit
-														et.
+														I was impressed by the
+														authenticity of the
+														watches and the secure
+														payment process. The
+														watch arrived with
+														impeccable packaging and
+														exceeded my
+														expectations.
 													</p>
 												</div>
 											</div>
@@ -220,6 +219,7 @@ const Testimonial = () => {
 									</div>
 								</div>
 							</div>
+
 							<div className="row mt-5 flex-center">
 								<div className="col-auto position-relative z-index-2">
 									<ol className="carousel-indicators">
