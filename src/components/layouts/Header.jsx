@@ -110,7 +110,7 @@ const Header = () => {
 								</svg>
 							</a>
 							<div className="ms-4 text-light fw-bold">
-								1 (800) 862 6772
+								+234 708 344 8550
 							</div>
 						</form>
 					</div>

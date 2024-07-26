@@ -114,7 +114,7 @@ const Footer = () => {
 									className="text-500"
 									href="#"
 									target="_blank"
-									> ADSE Students
+									> ADSE Students. Akowonjo Center.
 								</a>
 							</p>
 						</div>
