@@ -90,7 +90,7 @@ const Header = () => {
 							</li>
 						</ul>
 						<div className="d-flex ms-4 me-4 text-light fw-bold">
-							<span className=""> <a href="http://www.freevisitorcounters.com">Freevisitorcounters</a> </span>
+							<span className=""> <a href="http://www.freevisitorcounters.com"></a> </span>
 						</div>
 						<form className="d-flex">
 							<a className="text-primary" href="#!">
@@ -110,7 +110,7 @@ const Header = () => {
 								</svg>
 							</a>
 							<div className="ms-4 text-light fw-bold">
-								+234 708 344 8550
+								+234 702 344 9550
 							</div>
 						</form>
 					</div>
